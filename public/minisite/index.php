@@ -16,13 +16,12 @@
 //$_SESSION['auth']=true;
 //session_start();
 //var_dump($_SESSION);
-ini_set('session.use_strict_mode', 1); // a mettre partout avant le session start, ca sert a ce que la session ne
-// garde pas les cookies persos
+ini_set('session.use_strict_mode', 1); // a mettre partout avant le session start, ca sert a ce que la session ne garde pas les cookies persos
 if (isset($_SESSION['mail'])) {
     require __DIR__.'/../functions.php';
  }
 else{
-    echo "T'as qu'à te connecter<h1>bouffon</h1>";
+    echo "T'as qu'à te connecter<h1>Mouhahahaha</h1>";
 }
 
 
